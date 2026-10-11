@@ -1,0 +1,5 @@
+services:
+  yabof:
+    image: anssi/fcsc2025-pwn-yabof:latest
+    ports:
+      - "4000:4000"

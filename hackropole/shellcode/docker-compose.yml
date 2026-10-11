@@ -1,0 +1,5 @@
+services:
+  shellcode:
+    image: anssi/fcsc2022-pwn-shellcode:latest
+    ports:
+      - "4000:4000"

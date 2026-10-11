@@ -1,0 +1,5 @@
+services:
+  puissance4:
+    image: anssi/fcsc2026-pwn-puissance4-baby:latest
+    ports:
+      - "4000:4000"

@@ -1,0 +1,5 @@
+services:
+  depassement-de-tampon:
+    image: anssi/fcsc2022-pwn-depassement-de-tampon:latest
+    ports:
+      - "4000:4000"

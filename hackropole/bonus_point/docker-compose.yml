@@ -1,0 +1,5 @@
+services:
+  bonus-points:
+    image: anssi/fcsc2021-pwn-bonus-points:latest
+    ports:
+      - "4000:4000"

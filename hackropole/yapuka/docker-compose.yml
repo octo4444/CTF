@@ -1,0 +1,5 @@
+services:
+  yapuka:
+    image: anssi/fcsc2025-pwn-yapuka:latest
+    ports:
+      - "4000:4000"

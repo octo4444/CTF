@@ -1,0 +1,5 @@
+services:
+  call-me-blah:
+    image: anssi/fcsc2024-pwn-call-me-blah:latest
+    ports:
+      - "4000:4000"
